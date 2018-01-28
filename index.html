@@ -5,10 +5,27 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/index.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="main"></div>
+    <div class="panel panel-default">
+        <div class="panel-heading">Step.js</div>
+        <div class="panel-body XY-body">
+            <div class="input-group">
+                <span class="input-group-addon">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-describedby="用户名" id="input-username">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">@</span>
+                <input type="text" class="form-control" placeholder="Password" aria-describedby="密码" id="input-password">
+            </div>
+            <button type="button" class="btn btn-primary btn-lg" id="button-login">登录</button>
+        </div>
+    </div>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/dist/bundle.js"></script>
 </body>
 </html>
